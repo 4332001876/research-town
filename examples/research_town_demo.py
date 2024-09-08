@@ -1,11 +1,15 @@
 import os
 import datetime
 
+import sys  
+sys.path.append(os.path.abspath('..'))
+
 from beartype.typing import Literal
 
 from research_town.configs import Config
 from research_town.dbs import AgentProfileDB, EnvLogDB, PaperProfileDB, ProgressDB
 from research_town.engines import LifecycleResearchEngine
+
 
 Role = Literal['reviewer', 'proj_leader', 'proj_participant', 'chair'] | None
 

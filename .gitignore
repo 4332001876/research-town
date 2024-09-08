@@ -1,5 +1,6 @@
 # Special in this project
 examples/research_town_demo_log_*
+tmp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
