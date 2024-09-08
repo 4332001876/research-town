@@ -1,4 +1,5 @@
 import os
+import datetime
 
 from beartype.typing import Literal
 
@@ -50,9 +51,10 @@ def run_sync_experiment(
 
 
 def main() -> None:
+    formatted_time = str(datetime.datetime.now().strftime('%Y%m%d_%H%M%S'))
     run_sync_experiment(
         config_file_path='../configs/default_config.yaml',
-        save_file_path='./research_town_demo_log',
+        save_file_path='./research_town_demo_log_' + formatted_time, # 当前时间命名
     )
 
 
