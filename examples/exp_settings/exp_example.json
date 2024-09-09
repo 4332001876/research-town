@@ -1,0 +1,14 @@
+{
+    "agent_names": [
+        "Jiaxuan You",
+        "Jure Leskovec",
+        "Stefanie Jegelka",
+        "Silvio Lattanzi",
+        "Rex Ying",
+        "Tim Althoff",
+        "Christos Faloutsos",
+        "Julian McAuley"
+    ],
+    "domain": "graph neural networks",
+    "task": "Conduct research on Graph Neural Networks (GNN)."
+}

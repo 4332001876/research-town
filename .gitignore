@@ -1,5 +1,6 @@
 # Special in this project
 examples/research_town_demo_log_*
+examples/exp_settings/exp.json
 tmp
 
 # Byte-compiled / optimized / DLL files
